@@ -19,7 +19,7 @@ export default function Home() {
         <meta name="description" content="I'm Full-Stack Developer with ReactJS and NextJS experiences"/>
         <meta property="og:description" content="I'm Full-Stack Developer with ReactJS and NextJS experiences"/>
         <meta property="og:url" content={process.env.ROOT_URL}/>
-        <meta property='og:image' content={`${process.env.ROOT_URL}/assets/meo_1.jpg`} />
+        <meta property='og:image' content={`${process.env.ROOT_URL}/assets/avatar.jpg`} />
       </Head>
       <Main />
       <About />

@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    ROOT_URL: 'https://portfolio-six-weld-96.vercel.app'
+    ROOT_URL: 'https://portfolio-wpxy.vercel.app'
   }
 }
 
