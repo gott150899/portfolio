@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    ROOT_URL: 'http://localhost:3000'
+    ROOT_URL: 'https://portfolio-1arm1flew-gott150899.vercel.app'
   }
 }
 
