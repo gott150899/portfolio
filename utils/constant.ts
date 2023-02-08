@@ -13,12 +13,8 @@ const SKILLS: Skill[] = [
         skillName: 'CSS3'
     },
     {
-        thumbnail: '/assets/angular.png',
-        skillName: 'Angular'
-    },
-    {
-        thumbnail: '/assets/c-sharp.png',
-        skillName: 'Dot Net'
+        thumbnail: '/assets/Nextjs-logo.png',
+        skillName: 'NextJS'
     },
     {
         thumbnail: '/assets/reactjs.png',
@@ -28,14 +24,7 @@ const SKILLS: Skill[] = [
         thumbnail: '/assets/nodejs.png',
         skillName: 'NodeJS'
     },
-    {
-        thumbnail: '/assets/mssql.png',
-        skillName: 'MSSQL'
-    },
-    {
-        thumbnail: '/assets/mysql.png',
-        skillName: 'My SQL'
-    },
+    
 ]
 interface ExperienceObject{
     name: string;

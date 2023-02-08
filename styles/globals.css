@@ -39,7 +39,6 @@ html{
     input:focus, textarea:focus{
         @apply border-blue-600
     }
-    
 }
 
 .text-style-blue{
