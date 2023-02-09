@@ -19,7 +19,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h2 className='py-2'>Tran Ty Go</h2>
-                            <p className='text-[#0099FF] font-bold'>Front-End Developer</p>
+                            <p className='text-[#0099FF] font-bold'>Full-Stack Developer</p>
                             <p className='py-4'>Love myself - Love family - Love everybody</p>
                         </div>
                         <div>

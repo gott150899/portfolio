@@ -13,6 +13,10 @@ const SKILLS: Skill[] = [
         skillName: 'CSS3'
     },
     {
+        thumbnail: '/assets/angular.png',
+        skillName: 'Angular'
+    },
+    {
         thumbnail: '/assets/Nextjs-logo.png',
         skillName: 'NextJS'
     },
@@ -23,6 +27,18 @@ const SKILLS: Skill[] = [
     {
         thumbnail: '/assets/nodejs.png',
         skillName: 'NodeJS'
+    },
+    {
+        thumbnail: '/assets/c-sharp.png',
+        skillName: 'Dot Net'
+    },
+    {
+        thumbnail: '/assets/mssql.png',
+        skillName: 'MSSQL'
+    },
+    {
+        thumbnail: '/assets/mysql.png',
+        skillName: 'MySql'
     },
     
 ]

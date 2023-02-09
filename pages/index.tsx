@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Tran Ty Go | Front-End Developer</title>
-        <meta property="og:title" content="Tran Ty Go | Front-End Developer"/>
-        <meta name="description" content="I'm Front-End Developer with ReactJS and NextJS experiences"/>
-        <meta property="og:description" content="I'm Front-End Developer with ReactJS and NextJS experiences"/>
+        <title>Tran Ty Go | Full-Stack Developer</title>
+        <meta property="og:title" content="Tran Ty Go | Full-Stack Developer"/>
+        <meta name="description" content="I'm Full-Stack Developer with ReactJS and NextJS experiences"/>
+        <meta property="og:description" content="I'm Full-Stack Developer with ReactJS and NextJS experiences"/>
         <meta property="og:url" content={process.env.ROOT_URL}/>
         <meta property='og:image' content={`${process.env.ROOT_URL}/assets/avatar.jpg`} />
       </Head>
