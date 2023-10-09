@@ -13,16 +13,16 @@ const SKILLS: Skill[] = [
         skillName: 'CSS3'
     },
     {
-        thumbnail: '/assets/angular.png',
-        skillName: 'Angular'
-    },
-    {
         thumbnail: '/assets/Nextjs-logo.png',
         skillName: 'NextJS'
     },
     {
         thumbnail: '/assets/reactjs.png',
         skillName: 'ReactJS'
+    },
+    {
+        thumbnail: '/assets/angular.png',
+        skillName: 'Angular'
     },
     {
         thumbnail: '/assets/nodejs.png',
@@ -40,7 +40,18 @@ const SKILLS: Skill[] = [
         thumbnail: '/assets/mysql.png',
         skillName: 'MySql'
     },
-    
+    {
+        thumbnail: '/assets/mongoDB.png',
+        skillName: 'MongoDB'
+    },
+    {
+        thumbnail: '/assets/pm2.png',
+        skillName: 'PM2'
+    },
+    {
+        thumbnail: '/assets/nginx.png',
+        skillName: 'Nginx'
+    },
 ]
 interface ExperienceObject{
     name: string;
@@ -157,11 +168,44 @@ const PROJECTS: Project[] = [
         showDescription: 'Short description for Upgrade UI',
         timeLine: '06/2022 - 07/2022'
     },
+    {
+        idPath: 'vvc',
+        projectName: 'Vé Vui Chơi',
+        mainTechs: ['Dot Net Core', 'Angular', 'MSSQL'],
+        overview: 'Build a system to help users buy entertainment tickets easier',
+        technologies: ['Dot Net Core', 'Angular', 'SCSS', 'Ngx-Boostrap', 'MSSQL'],
+        linkDemo: 'https://www.ivivu.com/ve-vui-choi',
+        linkRepo: '',
+        thumbnailUrl: '/assets/ivivu_ve-vui-choi.svg',
+        experience: 'Build interface according to design, optimize application loading speed and response, server side rendering for google SEO',
+        experienceObject: [],
+        showDescription: 'Short description for Vé Vui Chơi',
+        timeLine: '03/2023 - 09/2023'
+    },
+    {
+        idPath: 'erp-vvc',
+        projectName: 'Vé Vui Chơi ERP System',
+        mainTechs: ['Dot Net Core', 'Angular', 'MSSQL'],
+        overview: 'Build a system to help users import, toggle status products',
+        technologies: ['Dot Net Core', 'Angular', 'SCSS', 'Angular Material', 'MSSQL'],
+        linkDemo: 'https://erpvvc.ivivu.com/',
+        linkRepo: '',
+        thumbnailUrl: '/assets/ivivu_ve-vui-choi.svg',
+        experience: 'Build interface according to design, optimize application loading speed and response',
+        experienceObject: [],
+        showDescription: 'Short description for Vé Vui Chơi ERP System',
+        timeLine: '03/2023 - 09/2023'
+    }
 ]
+
+const ERR_MSG = {
+    required: 'Field is required'
+}
 
 const CONSTANT = {
     PROJECTS,
-    SKILLS
+    SKILLS,
+    ERR_MSG
 }
 
 export default CONSTANT;

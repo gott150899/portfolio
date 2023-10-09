@@ -16,15 +16,15 @@ const Projects = () => {
                     <React.Fragment key={index}>
                         <div  className='flex flex-col mb-10 gap-x-3 sm:flex-row'>
                             <div className='flex-1'>
-                                <Image className='m-auto rounded-xl shadow-xl shadow-gray-400' src={project.thumbnailUrl} alt='/' width='200' height='200' />
+                                <Image className='m-auto rounded-xl shadow-xl shadow-gray-400 w-[200px] h-[200px] object-cover' src={project.thumbnailUrl} alt='/' width='200' height='200' />
                             </div>
                             <div className='w-full sm:w-[70%]'>
                                 <h3 className='my-4 text-center sm:text-left sm:mt-0'>{project.projectName}</h3>
-                                <p className='mb-4'>{project.overview}</p>
-                                <div className='flex flex-wrap gap-1 mb-4'>
+                                <p className='mb-4 min-h-[48px]'>{project.overview}</p>
+                                <div className='flex flex-wrap gap-5 mb-4 sm:gap-2'>
                                 {
                                     project.technologies.map((tech, index) => (
-                                        <div key={index} className='flex items-center gap-2 w-[30%]'>
+                                        <div key={index} className='flex items-center gap-2 w-fit sm:w-[30%]'>
                                             <AiFillCheckCircle size={20} color='#00BFFF' />
                                             <span>{tech}</span>
                                         </div>

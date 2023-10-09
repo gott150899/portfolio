@@ -3,7 +3,7 @@ import Link from "next/link"
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const Navbar = () =>{
     const [nav, setNav] = useState(false);
@@ -34,6 +34,9 @@ const Navbar = () =>{
                         </Link>
                         <Link href='/#contact '>
                             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
+                        </Link>
+                        <Link href='/api/download-cv'>
+                            <li className="ml-10 text-sm uppercase hover:border-b">Download My CV</li>
                         </Link>
                     </ul>
                     <div className="md:hidden cursor-pointer" onClick={handleNav}>
@@ -76,6 +79,9 @@ const Navbar = () =>{
                             </Link>
                             <Link href='/#contact' onClick={() => setNav(false)}>
                                 <li className="py-4 text-sm">Contact</li>
+                            </Link>
+                            <Link href='/api/download-cv'>
+                                <li className="py-4 text-sm">Download My CV</li>
                             </Link>
                         </ul>
                         <div className="pt-16">
