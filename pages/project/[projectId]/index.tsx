@@ -21,7 +21,8 @@ const Property = ({ project }: PropertyProps) => {
   return (
     <>
         <Head>
-            <title>Tran Ty Go | {project.projectName}</title>
+            {/* <title>Tran Ty Go | {project.projectName}</title> */}
+            <title>{`Tran Ty Go | ${project.projectName}`}</title>
             <meta property="og:title" content={`Tran Ty Go | ${project.projectName}`} />
             <meta name='description' content={project.showDescription} />
             <meta property="og:description" content={project.showDescription} />

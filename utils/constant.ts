@@ -195,7 +195,21 @@ const PROJECTS: Project[] = [
         experienceObject: [],
         showDescription: 'Short description for Vé Vui Chơi ERP System',
         timeLine: '03/2023 - 09/2023'
-    }
+    },
+    {
+        idPath: 'bespoke-travel',
+        projectName: 'Bespoke Travel',
+        mainTechs: ['Dot Net Core', 'Angular', 'Tailwindcss', 'MSSQL'],
+        overview: 'The application allows KOLs and KOCs to create their personal pages in many different styles with many different layouts, advertise and schedule travel to interact with fans.',
+        technologies: ['Dot Net Core', 'Angular', 'SCSS', 'Tailwindcss', 'Antd', 'MSSQL'],
+        linkDemo: 'https://ivivu.com/bespoke',
+        linkRepo: '',
+        thumbnailUrl: '/assets/ivivu_ve-vui-choi.svg',
+        experience: 'Build interface according to design, optimize application loading speed and response',
+        experienceObject: [],
+        showDescription: 'Short description for Bespoke Travel',
+        timeLine: '10/2023 - 02/2024'
+    },
 ]
 
 const ERR_MSG = {
