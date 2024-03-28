@@ -210,6 +210,20 @@ const PROJECTS: Project[] = [
         showDescription: 'Short description for Bespoke Travel',
         timeLine: '10/2023 - 02/2024'
     },
+    {
+        idPath: 'vietgoal',
+        projectName: 'VietGoal - VietGoal-ERP',
+        mainTechs: ['Dot Net Core', 'Angular', 'Tailwindcss', 'MongoDB'],
+        overview: 'This is an application to sell products that are soccer training packages for children. Helps administrators manage requests, manage inventory, and many other features.',
+        technologies: ['Dot Net Core', 'Angular', 'SCSS', 'Tailwindcss', 'Antd', 'MongoDB'],
+        linkDemo: 'https://vietgoal.com/',
+        linkRepo: '',
+        thumbnailUrl: '/assets/logo-vietgoal.png',
+        experience: 'Build interface according to design, optimize application loading speed and response',
+        experienceObject: [],
+        showDescription: '',
+        timeLine: '09/2023 - now'
+    }
 ]
 
 const ERR_MSG = {
