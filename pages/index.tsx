@@ -7,10 +7,17 @@ import About from '@/components/About'
 import Skill from '@/components/Skill'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
+import { useEffect } from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
+  // console.log(window)
+  useEffect(() =>{
+    const tele = window ? (window as any).Telegram.WebApp : undefined;
+    // tele.ready()
+    if(tele) tele.ready()
+  })
   return (
     <>
       <Head>
@@ -20,6 +27,7 @@ export default function Home() {
         <meta property="og:description" content="I'm Full-Stack Developer with ReactJS and NextJS experiences"/>
         <meta property="og:url" content={process.env.ROOT_URL}/>
         <meta property='og:image' content={`${process.env.ROOT_URL}/assets/avatar.jpg`} />
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
       </Head>
       <Main />
       <About />
